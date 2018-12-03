@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit
+    bootstrap="./bootstrap.php"
+    colors="true"
+    beStrictAboutTestsThatDoNotTestAnything="false">
+    <testsuites>
+        <testsuite name="hotel-data-import">
+            <directory>../module/HotelData/test/HotelData</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <blacklist>
+            <directory>../vendor/</directory>
+        </blacklist>
+    </filter>
+    <php>
+        <ini name="display_errors" value="On" />
+        <ini name="display_startup_errors" value="On" />
+    </php>
+</phpunit>

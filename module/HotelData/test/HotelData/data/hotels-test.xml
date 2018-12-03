@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<hotels>
+    <hotel>
+        <name>Name 1</name>
+        <address>Address 1</address>
+        <stars>1</stars>
+        <contact>Contact name 1</contact>
+        <phone>1-111-1111</phone>
+        <uri>http://localhost.com/1</uri>
+    </hotel>
+</hotels>
