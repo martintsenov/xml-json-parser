@@ -1,10 +1,9 @@
-
 {
-    "name": "hotel-data-import",
+    "name": "martintsenov/xml-json-parser",
     "description": "Hotel import app",
-    "type": "",
+    "type": "project",
     "require": {
-        "php": ">=7",
+        "php": "7.2.*",
         "zendframework/zendframework": "2.4.*",
         "zendframework/zftool": "dev-master"
     },
@@ -20,7 +19,7 @@
     "config": {
         "discard-changes": true,
         "platform": {
-            "php": "7.0.27"
+            "php": "7.2.29"
         }
     }
 }
